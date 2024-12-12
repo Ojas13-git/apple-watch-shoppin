@@ -5,7 +5,7 @@ export const collections = [
     description: "The most powerful Apple Watch yet.",
     cases: [
       {
-        id: "aluminum-42mm",
+        id: "aluminum-42mm1",
         name: "42mm Silver Aluminum Case with Black Solo Loop",
         material: "Aluminum",
         size: "42mm",
@@ -13,7 +13,7 @@ export const collections = [
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-case-42-aluminum-silver-nc-s10_VW_PF+watch-face-42-aluminum-silver-s10_VW_PF?wid=1000&hei=1000&fmt=png-alpha&.v=Tmx5N2FJN2lxM3QwMWlJbWNYWU5zcS9MMjFrdVpVbER4UTlYL0F6UUxMTXlKN3h2cmJhZy9Wa2xIdm9lcGFpb0NBSFk4SmE1aHRKK3d3YTk3UXM0ZWphRldCVytibDdFVW4zaGQraXo4V2lGb0grci9sTHk0cW5yeWNFd2tRMXRGdEhRVmRIZVBLS2FtUFNyZG1CeE40OVlNTUpXNVJHaTMrakMzTkw0cUFRY2xKemp2MTFPaUhOWjNINUFjT21B",
       },
       {
-        id: "aluminum-42mm",
+        id: "aluminum-42mm2",
         name: "42mm Rose Gold Aluminum Case with Black Solo Loop",
         material: "Aluminum",
         size: "42mm",
@@ -21,7 +21,7 @@ export const collections = [
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-case-42-aluminum-rosegold-nc-s10_VW_PF+watch-face-42-aluminum-rosegold-s10_VW_PF?wid=1000&hei=1000&fmt=png-alpha&.v=Tmx5N2FJN2lxM3QwMWlJbWNYWU5za1hCVTI0TG9VSWowa2ZNaXhKRWFaSm0xR2lBNEhDZ3RrRjNEOTloOGpFejM0dWNRQ25LYnpVd3RzVVhGSlBDMStRZ3NtU2dFUnRuSVJhQzVBeFVadWtFV3ZkVVErQ2lxQjUvY3lWaGtLb0N0ellxUDB4dVliN1NPTHhYUld4M0p5am05N0NVWnlUTTNBaW9WT3lDS2lvbmYzRTFGU1cyNFdtdUoxcXBXVFAv",
       },
       {
-        id: "aluminum-42mm",
+        id: "aluminum-42mm3",
         name: "42mm Jet Black Aluminum Case with Black Solo Loop",
         material: "Aluminum",
         size: "42mm",
@@ -29,7 +29,7 @@ export const collections = [
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-case-42-aluminum-jetblack-nc-s10_VW_PF+watch-face-42-aluminum-jetblack-s10_VW_PF?wid=1000&hei=1000&fmt=png-alpha&.v=Tmx5N2FJN2lxM3QwMWlJbWNYWU5zcUVmS05vWHBxQ1hNMzNlZ1l5V3RQRm0xR2lBNEhDZ3RrRjNEOTloOGpFejM0dWNRQ25LYnpVd3RzVVhGSlBDMS9ZdXM3S3c2TnF5czBINnVYaTd4cVVFV3ZkVVErQ2lxQjUvY3lWaGtLb0N0ellxUDB4dVliN1NPTHhYUld4M0p5am05N0NVWnlUTTNBaW9WT3lDS2lvbmYzRTFGU1cyNFdtdUoxcXBXVFAv",
       },
       {
-        id: "titanium-42mm",
+        id: "titanium-42mm1",
         name: "42mm Natural Titanium Case with Black Solo Loop",
         material: "Titanium",
         size: "42mm",
@@ -37,7 +37,7 @@ export const collections = [
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-case-42-titanium-natural-cell-s10_VW_PF+watch-face-42-titanium-natural-s10_VW_PF?wid=1000&hei=1000&fmt=png-alpha&.v=MWF5bnRSQ0xkL2IyaVkvcXV5Rmd4dVRaQzNERGRFYWpOR2ZYa2tEblo3UFZicVRRN09oTDNPbVJoakNOdFBsLzkyUkZrdDFobHFndTg2dVFhMU5ub1QzcnNWTHRlNVlONzMza21GaTAwQVVFV3ZkVVErQ2lxQjUvY3lWaGtLb0N0ellxUDB4dVliN1NPTHhYUld4M0p5am05N0NVWnlUTTNBaW9WT3lDS2lvbmYzRTFGU1cyNFdtdUoxcXBXVFAv",
       },
       {
-        id: "titanium-42mm",
+        id: "titanium-42mm2",
         name: "42mm Gold Titanium Case with Black Solo Loop",
         material: "Titanium",
         size: "42mm",
@@ -45,12 +45,61 @@ export const collections = [
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-case-42-titanium-gold-cell-s10_VW_PF+watch-face-42-titanium-gold-s10_VW_PF?wid=1000&hei=1000&fmt=png-alpha&.v=MWF5bnRSQ0xkL2IyaVkvcXV5Rmd4a2NVRDBtRHBIdlNvZFpvSFN3SFNrVXlKN3h2cmJhZy9Wa2xIdm9lcGFpb2RGTW95bzhKY2hYSHIzQWFxWThsbCtWV3Bsak5WR3RZeXgwZTJxZ1FBQWQwSlB5Y0tYeFR4NmNmOHFJRDcxcndnMGFEVEZmOEhmU2pqOEg4YzFCZjdUYVhFbmVlOVBZQVJ6YVVMREY4VVdDSkxMYjhBbEZsbUNjbmtLUUgvNzJC",
       },
       {
-        id: "titanium-42mm",
+        id: "titanium-42mm3",
         name: "42mm Slate Titanium Case with Black Solo Loop",
         material: "Titanium",
         size: "42mm",
         price: 699,
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-case-42-titanium-slate-cell-s10_VW_PF+watch-face-42-titanium-slate-s10_VW_PF?wid=1000&hei=1000&fmt=png-alpha&.v=MWF5bnRSQ0xkL2IyaVkvcXV5Rmd4cVNqaHozUE8wNjI5UVd3V1MzZU9ITDk1ZDUyeHhvREd4VE1qbnlsOGRsRm41Qnd4U2FHdkMyS3p0V012YTBmd0FIRjBBZXk0a1ZITlZxZjFUK21za1dGb0grci9sTHk0cW5yeWNFd2tRMXRGdEhRVmRIZVBLS2FtUFNyZG1CeE40OVlNTUpXNVJHaTMrakMzTkw0cUFRY2xKemp2MTFPaUhOWjNINUFjT21B",
+      },
+      {
+        id: "aluminum-46mm1",
+        name: "46mm Silver Aluminum Case with Natural Milanese Loop",
+        material: "Aluminum",
+        size: "46mm",
+        price: 479,
+        image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-case-46-aluminum-silver-nc-s10_VW_PF+watch-face-46-aluminum-silver-s10_VW_PF?wid=1000&hei=1000&fmt=png-alpha&.v=ZkpvU2VZQXB3RnNRVENEZS9Wb2Y3Ni9MMjFrdVpVbER4UTlYL0F6UUxMTXlKN3h2cmJhZy9Wa2xIdm9lcGFpb09vMDVrRDBTL1JGOWgwenZrMUlPenphRldCVytibDdFVW4zaGQraXo4V2lGb0grci9sTHk0cW5yeWNFd2tRMXRGdEhRVmRIZVBLS2FtUFNyZG1CeE40OVlNTUpXNVJHaTMrakMzTkw0cUFRY2xKemp2MTFPaUhOWjNINUFjT21B",
+      },
+      {
+        id: "aluminum-46mm2",
+        name: "46mm Rose Gold Aluminum Case with Natural Milanese Loop",
+        material: "Aluminum",
+        size: "46mm",
+        price: 479,
+        image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-case-46-aluminum-rosegold-nc-s10_VW_PF+watch-face-46-aluminum-rosegold-s10_VW_PF?wid=1000&hei=1000&fmt=png-alpha&.v=ZkpvU2VZQXB3RnNRVENEZS9Wb2Y3MFhCVTI0TG9VSWowa2ZNaXhKRWFaSm0xR2lBNEhDZ3RrRjNEOTloOGpFekM4bU8yL1REVmF4VUkrMW5QRGtKeWVRZ3NtU2dFUnRuSVJhQzVBeFVadWtFV3ZkVVErQ2lxQjUvY3lWaGtLb0N0ellxUDB4dVliN1NPTHhYUld4M0p5am05N0NVWnlUTTNBaW9WT3lDS2lvbmYzRTFGU1cyNFdtdUoxcXBXVFAv",
+      },
+      {
+        id: "aluminum-46mm3",
+        name: "46mm Jet Black Aluminum Case with Natural Milanese Loop",
+        material: "Aluminum",
+        size: "46mm",
+        price: 479,
+        image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-case-46-aluminum-jetblack-nc-s10_VW_PF+watch-face-46-aluminum-jetblack-s10_VW_PF?wid=1000&hei=1000&fmt=png-alpha&.v=ZkpvU2VZQXB3RnNRVENEZS9Wb2Y3NkVmS05vWHBxQ1hNMzNlZ1l5V3RQRm0xR2lBNEhDZ3RrRjNEOTloOGpFekM4bU8yL1REVmF4VUkrMW5QRGtKeWZZdXM3S3c2TnF5czBINnVYaTd4cVVFV3ZkVVErQ2lxQjUvY3lWaGtLb0N0ellxUDB4dVliN1NPTHhYUld4M0p5am05N0NVWnlUTTNBaW9WT3lDS2lvbmYzRTFGU1cyNFdtdUoxcXBXVFAv",
+      },
+      {
+        id: "titanium-46mm1",
+        name: "46mm Natural Titanium Case with Natural Milanese Loop",
+        material: "Titanium",
+        size: "46mm",
+        price: 799,
+        image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-case-42-titanium-natural-cell-s10_VW_PF+watch-face-42-titanium-natural-s10_VW_PF?wid=1000&hei=1000&fmt=png-alpha&.v=MWF5bnRSQ0xkL2IyaVkvcXV5Rmd4dVRaQzNERGRFYWpOR2ZYa2tEblo3UFZicVRRN09oTDNPbVJoakNOdFBsLzkyUkZrdDFobHFndTg2dVFhMU5ub1QzcnNWTHRlNVlONzMza21GaTAwQVVFV3ZkVVErQ2lxQjUvY3lWaGtLb0N0ellxUDB4dVliN1NPTHhYUld4M0p5am05N0NVWnlUTTNBaW9WT3lDS2lvbmYzRTFGU1cyNFdtdUoxcXBXVFAv",
+      },
+      {
+        id: "titanium-46mm2",
+        name: "46mm Gold Titanium Case with Natural Milanese Loop",
+        material: "Titanium",
+        size: "46mm",
+        price: 799,
+        image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-case-46-titanium-gold-cell-s10_VW_PF+watch-face-46-titanium-gold-s10_VW_PF?wid=1000&hei=1000&fmt=png-alpha&.v=VkZ1UEhBSWJYcW8vU2JKY0dsSEFqa2NVRDBtRHBIdlNvZFpvSFN3SFNrVXlKN3h2cmJhZy9Wa2xIdm9lcGFpb285ZnlFYUluNlVpdEVDTlo4UFJtQnVWV3Bsak5WR3RZeXgwZTJxZ1FBQWQwSlB5Y0tYeFR4NmNmOHFJRDcxcndnMGFEVEZmOEhmU2pqOEg4YzFCZjdUYVhFbmVlOVBZQVJ6YVVMREY4VVdDSkxMYjhBbEZsbUNjbmtLUUgvNzJC",
+      }
+      ,
+      {
+        id: "titanium-46mm3",
+        name: "46mm Slate Titanium Case with Natural Milanese Loop",
+        material: "Titanium",
+        size: "46mm",
+        price: 799,
+        image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-case-46-titanium-slate-cell-s10_VW_PF+watch-face-46-titanium-slate-s10_VW_PF?wid=1000&hei=1000&fmt=png-alpha&.v=VkZ1UEhBSWJYcW8vU2JKY0dsSEFqcVNqaHozUE8wNjI5UVd3V1MzZU9ITDk1ZDUyeHhvREd4VE1qbnlsOGRsRkpsRGF2TDgzZHo4RzR2eUh2TDZyckFIRjBBZXk0a1ZITlZxZjFUK21za1dGb0grci9sTHk0cW5yeWNFd2tRMXRGdEhRVmRIZVBLS2FtUFNyZG1CeE40OVlNTUpXNVJHaTMrakMzTkw0cUFRY2xKemp2MTFPaUhOWjNINUFjT21B",
       },
     ],
     bands: [
@@ -63,7 +112,7 @@ export const collections = [
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXMM3_SR_S10_VW_PF?wid=1000&hei=1000&fmt=p-jpg&qlt=95&.v=RUVrR0pYQnFkVXB2VXdybU1jWHBDNFdnZjZ2K1V2TGlxZXZKd1RDUkRXMXlpUXRnQm9OYUp6MTBYbDhnVTM5ZVF0MVBoQTNhT0JsTU9wemdVTERUbGtsUWtsVFJIQnpsQUUwTmlqMmlPcWM",
       },
       {
-        id: "stainless-steel",
+        id: "stainless-steel2",
         name: "42mm Jet Black Aluminum Case with Gold Milanese Loop",
         type: "Stainleass Steel",
         color: "Black",
@@ -72,20 +121,36 @@ export const collections = [
       },
       {
         id: "solo-loop-blue",
-        name: "Solo Loop",
+        name: "46mm Jet Black Aluminum Case with Ultramarine Solo Loop",
         type: "Solo Loop",
         color: "Blue",
         price: 49,
-        image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MT423ref_VW_34FR+watch-45-alum-midnight-nc-9s_VW_34FL_WF_CO_GEO_US?wid=2000&hei=2000&fmt=png-alpha",
+        image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MY8E3ref_SR_S10_VW_PF?wid=1000&hei=1000&fmt=p-jpg&qlt=95&.v=OVp5Vlk0aWlkTlE0N2J3VWJDQ01hVHVkcStXUmxwTmtpV2dxUWV1ZU5xeXkvYVhHUzZnbTdlRlQ4aGhRUUYyVXZ6RVMwQXJHUjF3MlcvZ3RFeXhMRDVzaDNYQm9FT2pIMkdXYzlEUEliVWM",
       },
       {
+        id: "solo-loop-green",
+        name: "46mm Jet Black Aluminum Case with Lake Green Solo Loop",
+        type: "Solo Loop",
+        color: "Green",
+        price: 49,
+        image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MY8U3ref_SR_S10_VW_PF?wid=1000&hei=1000&fmt=p-jpg&qlt=95&.v=WnJuZm5OaVpQcG01bXU3Q3dIelF1anVkcStXUmxwTmtpV2dxUWV1ZU5xeXkvYVhHUzZnbTdlRlQ4aGhRUUYyVXZ6RVMwQXJHUjF3MlcvZ3RFeXhMRDVzaDNYQm9FT2pIMkdXYzlEUEliVWM",
+      },
+      {
+        id: "sport-loop-blue",
+        name: "46mm Jet Black Aluminum Case with Ultramarine Sport Loop",
+        type: "Sport Loop",
+        color: "Blue",
+        price: 49,
+        image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXL73_SR_S10_VW_PF?wid=1000&hei=1000&fmt=p-jpg&qlt=95&.v=ZDltL2RrNFBVSStNSERYSUpVdENCSVdnZjZ2K1V2TGlxZXZKd1RDUkRXMXlpUXRnQm9OYUp6MTBYbDhnVTM5ZXYwbmJMVDNlZjZ6NkQzeENZVHZXVHVYTHYyU1puMGYwMkRSY3hDYkZoWWs",
+      },{
         id: "sport-loop-green",
-        name: "Sport Loop",
+        name: "46mm Jet Black Aluminum Case with Lake Green Sport Loop",
         type: "Sport Loop",
         color: "Green",
         price: 49,
-        image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MT4F4ref_VW_34FR?wid=2000&hei=2000&fmt=png-alpha",
+        image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXL83_SR_S10_VW_PF?wid=1000&hei=1000&fmt=p-jpg&qlt=95&.v=a3p5RDNCTHlpSnh6eE1kSXZuUXJ6NFdnZjZ2K1V2TGlxZXZKd1RDUkRXMXlpUXRnQm9OYUp6MTBYbDhnVTM5ZXYwbmJMVDNlZjZ6NkQzeENZVHZXVHVYTHYyU1puMGYwMkRSY3hDYkZoWWs",
       },
+
     ],
   },
   {
@@ -112,7 +177,7 @@ export const collections = [
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXJD3_VW_PF?wid=1000&hei=1000&fmt=p-jpg&qlt=95&.v=clcwNHBZRFkwdmZJVUhURWhXUGJISXduOFMvbmVQTFhMVFZ1Tkw2anFlWFpLTDlBenJjeUgxUWRMYy82UUdzb3YwNHhaZm1nVTBYVTB1d1VzUXF1eWc",
       },
       {
-        id: "torsade",
+        id: "torsade1",
         name: "46mm Silver Titanium Case with Navy Torsade Single Tour",
         type: "Hermès Torsade",
         color: "Blue",
@@ -120,7 +185,7 @@ export const collections = [
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXK33_VW_PF?wid=1000&hei=1000&fmt=p-jpg&qlt=95&.v=bXZVYWxYRzNoWXRMaWpjNllsRGg3NHduOFMvbmVQTFhMVFZ1Tkw2anFlWFpLTDlBenJjeUgxUWRMYy82UUdzb3YwNHhaZm1nVTBYVTB1d1VzUXF1eWc",
       },
       {
-        id: "torsade",
+        id: "torsade2",
         name: "46mm Silver Titanium Case with Rouge Grenat Torsade Single Tour",
         type: "Hermès Torsade",
         color: "Red",
@@ -128,7 +193,7 @@ export const collections = [
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXK23_VW_PF?wid=1000&hei=1000&fmt=p-jpg&qlt=95&.v=QnZmR3FEVjNHZGxHMWNxUWNMVmdLb3duOFMvbmVQTFhMVFZ1Tkw2anFlWFpLTDlBenJjeUgxUWRMYy82UUdzb3YwNHhaZm1nVTBYVTB1d1VzUXF1eWc",
       },
       {
-        id: "kilim",
+        id: "kilim1",
         name: "46mm Silver Titanium Case with Béton Kilim Single Tour",
         type: "Hermès Kilim",
         color: "White",
@@ -136,7 +201,7 @@ export const collections = [
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXJL3_VW_PF?wid=1000&hei=1000&fmt=p-jpg&qlt=95&.v=bDN0VldKZjBLS1o4MU5iUGFNTVZHWXduOFMvbmVQTFhMVFZ1Tkw2anFlWFpLTDlBenJjeUgxUWRMYy82UUdzb3YwNHhaZm1nVTBYVTB1d1VzUXF1eWc",
       },
       {
-        id: "kilim",
+        id: "kilim2",
         name: "46mm Silver Titanium Case with Noir Kilim Single Tour",
         type: "Hermès Kilim",
         color: "Black",
@@ -144,7 +209,7 @@ export const collections = [
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXJN3_VW_PF?wid=1000&hei=1000&fmt=p-jpg&qlt=95&.v=NklPSDFzbzg3RnhXeVoxS3Nla2R6WXduOFMvbmVQTFhMVFZ1Tkw2anFlWFpLTDlBenJjeUgxUWRMYy82UUdzb3YwNHhaZm1nVTBYVTB1d1VzUXF1eWc",
       },
       {
-        id: "grand-h",
+        id: "grand-h1",
         name: "46mm Silver Titanium Case with Satiné Grand H",
         type: "Hermès Grand H",
         color: "Black",
