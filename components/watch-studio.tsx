@@ -9,26 +9,35 @@ import { ShareButton } from "@/components/share-button";
 
 export function WatchStudio() {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="max-w-7xl mx-auto">
-        <div className="mb-8">
+    <div className="container mx-auto p-4">
+      <div className="max-w-screen-lg mx-auto">
+        
+        {/* Header Section */}
+        <div className="flex flex-wrap items-center justify-between mb-6 gap-4">
           <CollectionSelector />
+          <ShareButton />
         </div>
         
-        <div className="mb-12">
-          <WatchPreview />
+        {/* Watch Preview and Price Section */}
+        <div className="flex flex-col md:flex-row items-center justify-center mb-8 space-y-6 md:space-y-0 md:space-x-8">
+          <div className="w-full md:w-1/2">
+            <WatchPreview />
+          </div>
+          <div className="w-full md:w-1/3">
+            <PriceDisplay />
+          </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <div className="space-y-8">
+        {/* Case and Band Selection Section */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="space-y-4">
             <CaseSelection />
-            <PriceDisplay />
-            <ShareButton />
           </div>
-          <div>
+          <div className="space-y-4">
             <BandSelection />
           </div>
         </div>
+        
       </div>
     </div>
   );
