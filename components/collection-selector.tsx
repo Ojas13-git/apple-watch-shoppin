@@ -18,7 +18,10 @@ export function CollectionSelector() {
         value={configuration.collection?.id}
         onValueChange={(value) => {
           const collection = collections.find((c) => c.id === value);
-          if (collection) setCollection(collection);
+          if (collection) {
+            console.log("Selected Collection:", collection); // Log selected collection
+            setCollection(collection); // Set new collection
+          }
         }}
       >
         <SelectTrigger>
