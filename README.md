@@ -49,7 +49,6 @@ A clone of the Apple Watch Studio experience, built with Next.js, TypeScript, an
 - Browse and filter watch bands by type
 
 ### Interactive Preview
-- 360° view with carousel navigation
 - Real-time updates as you customize
 - Smooth transitions between options
 
