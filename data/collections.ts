@@ -155,7 +155,7 @@ export const collections = [
         id: "solo-loop-black",
         name: "42mm Natural Titanium Case with Black Unity Braided Solo Loop",
         type: "Solo Loop",
-        color: "black",
+        color: "Black",
         price: 49,
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MMW93ref_SR_S10_VW_PF?wid=1000&hei=1000&fmt=p-jpg&qlt=95&.v=QVhEaDM0aVhCaFV2YzJxNC85eW9tenVkcStXUmxwTmtpV2dxUWV1ZU5xeXkvYVhHUzZnbTdlRlQ4aGhRUUYyVXZ6RVMwQXJHUjF3MlcvZ3RFeXhMRC9NZXZJNEg2TlhtcnQrZHBEZ3YxRDA",
       },
@@ -229,7 +229,7 @@ export const collections = [
         price: 1949,
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-case-42-titanium-silver-cell-hermes10s_VW_PF+watch-face-42-radial-blanc-hermes10s_VW_PF?wid=1000&hei=1000&fmt=png-alpha&.v=MWF5bnRSQ0xkL2IyaVkvcXV5Rmd4bG5hMEpjdElDRys4YVlISkd5ZGNjQXZVbHhMQjlTM3ZKa2hEWWUrdm8yaFZNbGZBblNteUNpL1hVRWxOUWExdXk3UWZsRFZUT3RDUXhiYzBQc00wM1ppWXlsaThGV0RuR1F3UUJSdnNrNGs2aGdXTy9qOTd4eXhTYk1tOWJ0NzVac3NFR2g5clp3N1hYNWtlaU9tcU1VOTdpZmkxUXVmditlZzc3LytHT3d5",
       },
-      ,{
+      {
         id: "aluminum-42mm",
         name: "42mm Black Aluminium Case with Gold/Écru Toile H Single Tour",
         material: "Aluminum",
