@@ -5,14 +5,20 @@ import { Share2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import html2canvas from "html2canvas";
 
-export function ShareButton() {
-  const watchPreviewRef = useRef<HTMLDivElement>(null); // Reference to the WatchPreview component
+interface ShareButtonProps {
+  watchPreviewRef: React.RefObject<HTMLDivElement>;
+}
+
+export function ShareButton({ watchPreviewRef }: ShareButtonProps) {
 
   /**
    * 🖼️ **Take Screenshot of WatchPreview**
    */
   const captureImage = async (): Promise<Blob | null> => {
-    if (!watchPreviewRef.current) return null;
+    if (!watchPreviewRef.current) {
+      console.error("❌ watchPreviewRef is not attached to any element");
+      return null;
+    }
     try {
       const canvas = await html2canvas(watchPreviewRef.current, { useCORS: true });
       const imageBlob = await new Promise<Blob | null>((resolve) =>
@@ -65,6 +71,7 @@ export function ShareButton() {
         });
       } else {
         console.warn("❌ Sharing files is not supported on this browser");
+        alert("Sharing files is not supported on this browser. Downloading instead.");
         handleDownload(); // Fallback to download if share is not available
       }
     } catch (error) {
