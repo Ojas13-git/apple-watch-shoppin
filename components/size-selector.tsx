@@ -9,9 +9,10 @@ export function SizeSelector() {
 
   const handleSizeChange = (size: string) => {
     const currentCase = configuration.case;
-    const newCase = configuration.collection?.cases.find(
-      (c) => c.size === size && c.material === currentCase?.material
+    const newCase = configuration.collection?.cases?.find(
+      (c) => c?.size === size && c?.material === currentCase?.material
     );
+    
     if (newCase) {
       setCase(newCase);
     }

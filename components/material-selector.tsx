@@ -10,7 +10,7 @@ export function MaterialSelector() {
   const handleMaterialChange = (material: string) => {
     const currentCase = configuration.case;
     const newCase = configuration.collection?.cases.find(
-      (c) => c.material === material && c.size === currentCase?.size
+      (c) => c?.material === material && c?.size === currentCase?.size
     );
     if (newCase) {
       setCase(newCase);
