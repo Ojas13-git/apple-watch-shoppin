@@ -5,7 +5,7 @@ A clone of the Apple Watch Studio experience, built with Next.js, TypeScript, an
 ## Features
 
 - 🎨 Interactive watch customization
-- 📱 Responsive design
+- 📱 Responsive design and Keyboard accessible UI
 - 🔄 Real-time preview updates
 - 💫 Smooth animations
 - 🎯 Size and material filtering
