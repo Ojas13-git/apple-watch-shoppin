@@ -106,7 +106,7 @@ export const collections = [
       {
         id: "stainless-steel",
         name: "42mm Jet Black Aluminum Case with Natural Milanese Loop",
-        type: "Stainleass Steel",
+        type: "Stainless Steel",
         color: "Black",
         price: 49,
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXMM3_SR_S10_VW_PF?wid=1000&hei=1000&fmt=p-jpg&qlt=95&.v=RUVrR0pYQnFkVXB2VXdybU1jWHBDNFdnZjZ2K1V2TGlxZXZKd1RDUkRXMXlpUXRnQm9OYUp6MTBYbDhnVTM5ZVF0MVBoQTNhT0JsTU9wemdVTERUbGtsUWtsVFJIQnpsQUUwTmlqMmlPcWM",
@@ -114,7 +114,7 @@ export const collections = [
       {
         id: "stainless-steel2",
         name: "42mm Jet Black Aluminum Case with Gold Milanese Loop",
-        type: "Stainleass Steel",
+        type: "Stainless Steel",
         color: "Black",
         price: 49,
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXMN3_SR_S10_VW_PF?wid=1000&hei=1000&fmt=p-jpg&qlt=95&.v=S0FtUTBtWFFDM2xldWhveHhoa2FhSVdnZjZ2K1V2TGlxZXZKd1RDUkRXMXlpUXRnQm9OYUp6MTBYbDhnVTM5ZVF0MVBoQTNhT0JsTU9wemdVTERUbGtsUWtsVFJIQnpsQUUwTmlqMmlPcWM",
@@ -122,7 +122,7 @@ export const collections = [
       {
         id: "stainless-steel3",
         name: "46mm Natural Titanium Case with Slate Milanese Loop",
-        type: "Stainleass Steel",
+        type: "Stainless Steel",
         color: "Black",
         price: 49,
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MC7L4ref_SR_S10_VW_PF?wid=1000&hei=1000&fmt=p-jpg&qlt=95&.v=Zms0YTN2QWltRzdYTFhmdGNUQ3Y3enVkcStXUmxwTmtpV2dxUWV1ZU5xeXkvYVhHUzZnbTdlRlQ4aGhRUUYyVXZ6RVMwQXJHUjF3MlcvZ3RFeXhMRDVzaDNYQm9FT2pIMkdXYzlEUEliVWM",
@@ -130,7 +130,7 @@ export const collections = [
       {
         id: "stainless-steel4",
         name: "46mm Natural Titanium Case with Natural Link Bracelet",
-        type: "Stainleass Steel",
+        type: "Stainless Steel",
         color: "Silver",
         price: 49,
         image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXMF3_SR_S10_VW_PF?wid=1000&hei=1000&fmt=p-jpg&qlt=95&.v=MWgzUlBDUHFLc09nNXp6YkQ2R2tRNFdnZjZ2K1V2TGlxZXZKd1RDUkRXMXlpUXRnQm9OYUp6MTBYbDhnVTM5ZVF0MVBoQTNhT0JsTU9wemdVTERUbGtsUWtsVFJIQnpsQUUwTmlqMmlPcWM",
