@@ -3,8 +3,7 @@
 import { useWatch } from "@/context/watch-context";
 import { useFilteredBands } from "@/hooks/use-filtered-bands";
 import { motion, AnimatePresence } from "framer-motion";
-import { useState } from "react";
-
+import { useState, useEffect } from "react";
 
 export function WatchPreview() {
   const { configuration, setBand } = useWatch();
@@ -28,6 +27,21 @@ export function WatchPreview() {
       setCurrentBandIndex(prevIndex);
     }
   };
+
+  const handleKeyDown = (event: KeyboardEvent) => {
+    if (event.key === 'ArrowRight') {
+      handleNextBand();
+    } else if (event.key === 'ArrowLeft') {
+      handlePreviousBand();
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [currentBandIndex, filteredBands]);
 
   return (
     <div className="relative aspect-square bg-gray-50 rounded-lg overflow-hidden">
