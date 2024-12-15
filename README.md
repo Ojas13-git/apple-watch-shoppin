@@ -25,7 +25,7 @@ A clone of the Apple Watch Studio experience, built with Next.js, TypeScript, an
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/apple-watch-studio.git
+   git clone https://github.com/yourusername/apple-watch-shoppin.git
    ```
 
 2. Install dependencies:
@@ -49,6 +49,7 @@ A clone of the Apple Watch Studio experience, built with Next.js, TypeScript, an
 - Browse and filter watch bands by type
 
 ### Interactive Preview
+- Carousel for different bands to try on cases
 - Real-time updates as you customize
 - Smooth transitions between options
 
@@ -62,13 +63,6 @@ A clone of the Apple Watch Studio experience, built with Next.js, TypeScript, an
 - Breakdown of individual component costs
 - Total configuration cost display
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 
