@@ -16,10 +16,14 @@ interface WatchContextType {
 const WatchContext = createContext<WatchContextType | undefined>(undefined);
 
 export function WatchProvider({ children }: { children: React.ReactNode }) {
+  const initialCollection = collections[0];
+  const initialCase = initialCollection.cases[0] || null;
+  const initialBand = initialCollection.bands[0] || null;
+
   const [configuration, setConfiguration] = useState<WatchConfiguration>({
-    case: null,
-    band: null,
-    collection: collections[0],
+    case: initialCase,
+    band: initialBand,
+    collection: initialCollection,
   });
 
   const setCase = (watchCase: WatchCase) => {
@@ -31,19 +35,19 @@ export function WatchProvider({ children }: { children: React.ReactNode }) {
   };
 
   const setCollection = (collection: WatchCollection) => {
-    setConfiguration((prev) => {
-      console.log("Previous configuration:", prev); // Log previous state
+    const initialCase = collection.cases[0] || null;
+    const initialBand = collection.bands[0] || null;
+    setConfiguration(() => {
       const updatedConfig = {
-        case: null,    // Clear previous case
-        band: null,    // Clear previous band
-        collection,    // Update with new collection
+        case: initialCase,    // Set initial case
+        band: initialBand,    // Set initial band
+        collection,           // Update with new collection
       };
       console.log("Updated configuration:", updatedConfig); // Log new state
       return updatedConfig;
     });
   };
   
-
   const totalPrice = (configuration.case?.price || 0) + (configuration.band?.price || 0);
 
   return (
